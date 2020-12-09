@@ -10,7 +10,7 @@
     {
       "color" : {
         "platform" : "ios",
-        "reference" : "systemTealColor"
+        "reference" : "systemRedColor"
       },
       "idiom" : "universal",
       "locale" : "zh-Hans"

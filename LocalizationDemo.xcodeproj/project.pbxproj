@@ -13,6 +13,7 @@
 		DE7614DB257F2B000077242A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7614D9257F2B000077242A /* Main.storyboard */; };
 		DE7614DD257F2B030077242A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7614DC257F2B030077242A /* Assets.xcassets */; };
 		DE7614E0257F2B030077242A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7614DE257F2B030077242A /* LaunchScreen.storyboard */; };
+		DE7614EA257F84A20077242A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7614E9257F84A20077242A /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DE7614DC257F2B030077242A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE7614DF257F2B030077242A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE7614E1257F2B030077242A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7614E9257F84A20077242A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DE7614DC257F2B030077242A /* Assets.xcassets */,
 				DE7614DE257F2B030077242A /* LaunchScreen.storyboard */,
 				DE7614E1257F2B030077242A /* Info.plist */,
+				DE7614E9257F84A20077242A /* Media.xcassets */,
 			);
 			path = LocalizationDemo;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			files = (
 				DE7614E0257F2B030077242A /* LaunchScreen.storyboard in Resources */,
 				DE7614DD257F2B030077242A /* Assets.xcassets in Resources */,
+				DE7614EA257F84A20077242A /* Media.xcassets in Resources */,
 				DE7614DB257F2B000077242A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zyfan.LocalizationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zyfan.LocalizationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

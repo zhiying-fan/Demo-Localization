@@ -1,0 +1,6 @@
+/* Bundle name */
+"CFBundleName" = "国际化例子";
+
+/* Privacy - Photo Library Usage Description */
+"NSPhotoLibraryUsageDescription" = "请允许使用照片以选择小猫的照片";
+
